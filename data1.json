@@ -1,0 +1,114 @@
+{
+  "question": [
+    "Q1. How many main entries are there in the Resident Evil series?", 
+    "Q2. In The Last Of Us(2013), where would you see the cordyceps easter-egg?", 
+    "Q3. In Dark Souls 3, who is the final boss of the game?", 
+    "Q4. Who is the main protagonist in the Metal Gear Solid series?", 
+    "Q5. Who is Lara's best friend in the Tomb Raider series?", 
+    "Q6. Which year did the first Super Mario game release in?", 
+    "Q7. What type of game is Minecraft?", 
+    "Q8. In which of the Grand Theft Auto games do you play the character Niko Bellic?", 
+    "Q9. The fictitious pharmaceutical company 'The Umbrella Corporation' belongs to which game series?",
+    "Q10. In God Of War(2018), what is the name of Kratos's legendary axe?", 
+    "Q11. Which one of these horror video-game entries is the most scariest?", 
+    "Q12. Who is the final boss in God Of War 3?", 
+    "Q13. The character Link is from which video-game series?", 
+    "Q14. When do you get to romance the character Ashley Williams in Mass Effect 3?", 
+    "Q15. In which of the Fallout video-games would you encounter a 'Mythic Deathclaw'?"
+  ],
+  "answer": [
+    4,
+    1,
+    2,
+    4,
+    2,
+    2,
+    1,
+    4,
+    2,
+    2,
+    4,
+    2,
+    2,
+    1,
+    3
+  ],
+  "options": [
+
+    ["2",
+      "5",
+      "6",
+      "8"
+    ],    
+    ["On the TV set",
+      "On a poster",
+      "There is no such easter-egg featured in the game",
+      "Outside the house"
+    ],
+    ["Iudex Gundyr",
+      "Soul of Cinder",
+      "Old Demon King",
+      "Nameless King"
+    ],
+    ["Raiden",
+      "Quiet",
+      "Revolver Ocelot",
+      "Solid Snake"
+    ],
+    ["Jonah Maiava",
+      "Samantha Nishimura",
+      "Alex Weiss",
+      "Conrad Roth"
+    ],
+    ["1979",
+      "1985",
+      "1986",
+      "1993"
+    ],
+    ["Sandbox",
+      "Role-playing",
+      "Shooter",
+      "Strategy"
+    ],
+    ["Grand Theft Auto 3",
+      "Grand Theft Auto: Vice City",
+      "Grand Theft Auto 1",
+      "Grand Theft Auto 4"
+    ],
+    ["Dead Or Alive",
+      "Resident Evil",
+      "Street Fighter",
+      "Devil May Cry"
+    ],
+    ["Obelisk",
+      "The Leviathan Axe",
+      "Nemean Cestus",
+      "Typhon's Bane"
+    ],
+    ["Layers Of Fear 2",
+      "Silent Hill: Homecoming",
+      "INSIDE",
+      "Visage"
+    ],
+    ["Athena",
+      "Zeus",
+      "Hades",
+      "Cerberus"
+    ],
+    ["Super Mario",
+      "The Legend Of Zelda",
+      "Pac-Man",
+      "Donkey Kong"
+    ],
+    ["When you go to Ilos",
+      "After you send off Aria",
+      "When you go to the Citadel",
+      "After finding Liara T'Soni"
+    ],
+    ["Fallout: New Vegas",
+      "Fallout 3",
+      "Fallout 4",
+      "None of the Fallout video-games"
+    ]
+  ]
+}

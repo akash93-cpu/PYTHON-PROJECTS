@@ -1,0 +1,128 @@
+{
+  "question": [
+    "Q1. In which fictional year is the first Assassin's Creed set?", 
+    "Q2. What is the name of the girl that Geralt has to save in The Witcher 3?", 
+    "Q3. In which year does The Wild Hunt takes place?", 
+    "Q4. Who is the main villain in The Witcher 3?", 
+    "Q5. What is the name of the main protagonist in Assassin's Creed 4?", 
+    "Q6. In which of the Dead Space game series would you find a Skate 3000(Skate 3) easter-egg?", 
+    "Q7. 'The Hive Mind' is located in which game franchise?", 
+    "Q8. What is the name given to the main antagonists(enemies) in the Dead Space video-games?", 
+    "Q9. Where would you see Isaac Clarke's health bar appear?",
+    "Q10. How many chapters are there in Dead Space 3(excluding the ending chapter)?", 
+    "Q11. Which of the main missions in GTA V involves the player racing on a bike?", 
+    "Q12. Which of these Bloodborne bosses is considered to be the toughest?", 
+    "Q13. Which is the most popular MMO-RPG in the world?", 
+    "Q14. Where would you find the Blazing Bull in Sekiro: Shadows Die Twice?", 
+    "Q15. What is the name of Johnny Silverhand's band in Cyberpunk 2077?"
+  ],
+  "answer": [
+    3,
+    4,
+    1,
+    2,
+    4,
+    3,
+    3,
+    1,
+    2,
+    4,
+    1,
+    3,
+    2,
+    4,
+    2
+  ],
+  "options": [
+
+    ["1530 A.D.",
+      "1251 A.D.",
+      "1191 A.D.",
+      "1856 A.D."
+    ],    
+
+    ["Yennefer",
+      "Triss",
+      "Fringilla",
+      "Cirilla"
+    ],
+
+    ["1272 A.D.",
+      "1320 A.D.",
+      "1202 A.D.",
+      "1325 A.D."
+    ],
+
+    ["Philippa Eilhart",
+      "Eredin Bréacc Glas",
+      "Jacques de Aldersberg",
+      "Letho of Gulet"
+    ],
+
+    ["Warren Vidic",
+      "Aveline de Grandpré",
+      "Desmond Miles",
+      "Edward Kenway"
+    ],
+
+    ["Dead Space 3",
+      "Dead Space",
+      "Dead Space 2",
+      "There is no such easter-egg featured in the game"
+    ],
+
+    ["Assassin's Creed",
+      "Tomb Raider",
+      "Dead Space",
+      "Silent Hill"
+    ],
+
+    ["Necromorphs",
+      "Brutes",
+      "Crawlers",
+      "Promethean"
+    ],
+     
+    ["On his right arm",
+      "On his back",
+      "On his left arm",
+      "On the HUD"
+    ],
+
+    ["13 Chapters",
+      "20 Chapters",
+      "15 Chapters",
+      "18 Chapters"
+    ],
+
+    ["Daddy's Little Girl",
+      "Easy Fare",
+      "Bugstars Equipment",
+      "Concrete Jungle"
+    ],
+
+    ["Gwyn, Lord Of Cinder",
+      "Artorias",
+      "Orphan Of Kos",
+      "Micolash, Host Of The Nightmares"
+    ],
+
+    ["Call Of Duty",
+      "World Of Warcraft",
+      "Dota 2",
+      "Diablo 3"
+    ],
+
+    ["Central Yharnam",
+      "Ashina Outskirts",
+      "Abandoned Dungeon",
+      "Ashina Castle Gate"
+    ],
+
+    ["Warlocks",
+      "Samurai",
+      "Lifesaver",
+      "Rockerboys"
+    ]
+  ]
+}
