@@ -7,7 +7,7 @@ import tkinter.messagebox
 import sqlite3
 
 
-# # FUNCTION USED TO CREATE THE INITIAL DATABASE TABLE--------------------------------------------------------------------
+# FUNCTION USED TO CREATE THE INITIAL DATABASE TABLE--------------------------------------------------------------------
 
 def create_initial_database():
 
@@ -23,7 +23,7 @@ def create_initial_database():
 
 create_initial_database()
 
-# MAIN GUI DESIGN: ------------------------------------------------------------------------------------------------------
+# MAIN GUI DESIGN: -----------------------------------------------------------------------------------------------------
 
 
 class Main:
