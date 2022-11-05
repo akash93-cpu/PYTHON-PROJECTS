@@ -1,20 +1,25 @@
 import tkinter as tk
 from tkinter import tix
 from tkinter import ttk
-from tkinter import simpledialog
 from datetime import datetime
 import json
 import tkinter.messagebox
 import sqlite3
 
-with sqlite3.connect("userdata.db") as db:
 
-    cursor = db.cursor()
-cursor.execute("CREATE TABLE IF NOT EXISTS quizdata(username TEXT NOT NULL PRIMARY KEY,"
-               "password TEXT NOT NULL, score INT, score2 INT);")
-cursor.execute("SELECT * FROM quizdata")
-db.commit()
-db.close()
+def create_initial_database():
+
+    with sqlite3.connect("userdata.db") as db:
+
+        cursor = db.cursor()
+    cursor.execute("CREATE TABLE IF NOT EXISTS quizdata(username TEXT NOT NULL PRIMARY KEY,"
+                   "password TEXT NOT NULL, score INT, score2 INT);")
+    cursor.execute("SELECT * FROM quizdata")
+    db.commit()
+    db.close()
+
+
+create_initial_database()
 
 # MAIN GUI DESIGN: -----------------------------------------------------------------------------------------------------
 
@@ -383,7 +388,7 @@ class Main:
             cursur = db.cursor()
 
         see_user = 'SELECT * FROM quizdata WHERE username = ? AND password = ?'
-        cursur.execute(see_user,[(self.login_user.get()),(self.var2.get())])
+        cursur.execute(see_user, [(self.login_user.get()),(self.var2.get())])
         result = cursur.fetchall()
         if result:
             self.mainFrame.pack_forget()
@@ -429,7 +434,7 @@ class Main:
     def scoreboard_view(self):
 
         self.mainFrame.pack_forget()
-        self.scoreFrame.pack(fill="both",expand=True)
+        self.scoreFrame.pack(fill="both", expand=True)
 
         conn = sqlite3.connect("userdata.db")
         cursor1 = conn.cursor()
@@ -538,7 +543,6 @@ class Main:
         self.create["bg"] = "SystemButtonFace"
 
     def frame1to2(self):
-
         self.mainFrame.pack_forget()
         self.frame2.pack(fill="both", expand=True)
 
@@ -855,4 +859,7 @@ question1 = (data1['question'])
 options1 = (data1['options'])
 answer1 = (data1['answer'])
 
-main = Main()
+
+if __name__ == '__main__':
+
+    main = Main()
